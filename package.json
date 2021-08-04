@@ -1,0 +1,24 @@
+{
+  "name": "biztime",
+  "version": "1.0.0",
+  "description": "BizTime exercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacharyrb99/bizTime.git"
+  },
+  "author": "zacharyrb99",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zacharyrb99/bizTime/issues"
+  },
+  "homepage": "https://github.com/zacharyrb99/bizTime#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
+}
