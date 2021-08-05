@@ -19,6 +19,7 @@
   "homepage": "https://github.com/zacharyrb99/bizTime#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "pg": "^8.7.1"
+    "pg": "^8.7.1",
+    "supertest": "^6.1.4"
   }
 }

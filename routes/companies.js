@@ -28,7 +28,7 @@ router.get('/:code', async (req, res, next) => {
         const invoices = invoiceResult.rows;
         company.invoices = invoices.map(inv => inv.id);
         
-        return res.json({"company": company});
+        return res.json({company});
         
     } catch(err) {
         return next(err)
